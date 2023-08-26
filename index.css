@@ -2,10 +2,34 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
+
+:root{
+    --fonte-destaque:'Bebas Neue';
+}
 body{
     background-image: linear-gradient(to right,#17A0BF,#0FA6A6,#BF6E50);
 }
 main{
     background-color: rgba(250, 236, 209, 0.826);
-    
+    border-radius: 22px;  
+        
 }
+ main > h1,h2{
+    text-align: center;
+    
+ }
+ main > p {
+   
+   font-family: 'Bebas Neue'
+ }
+ main > ul{
+        text-decoration:none ;
+    transition-duration: .5s;
+    margin-bottom: 5px;
+    columns: 2;
+
+ }
+  
