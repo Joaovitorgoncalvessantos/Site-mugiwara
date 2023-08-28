@@ -2,7 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
   
+ 
+@import url('https://fonts.googleapis.com/css2? family= Pirata+One & display=swap');
+   
+@import url('https://fonts.googleapis.com/css2? family= Pirata+One & display=swap');
 
+
+:root{
+  --fonte-titulo:'Pirata One', cursiva;
+  --texto: 'Phudu', cursiva;}
 
  body {
     background-image:linear-gradient(to right,#02735E,#038C3E,#0CF25D) ;
