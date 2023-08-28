@@ -33,7 +33,7 @@ h1{
    
 }
 div.video > iframe{
-   
+   height: 50%;
 }
 p{
    text-align:justify;
