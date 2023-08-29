@@ -1,4 +1,45 @@
 @charset "UTF-8";
- p{
-    text-align:left ;
- }
+   
+@import url('https://fonts.googleapis.com/css2? family= Pirata+One & display=swap');
+
+
+:root{
+  --fonte-titulo:'Pirata One', cursiva;
+  --texto: 'Phudu', cursiva;}
+
+  body{
+   background-image:linear-gradient(to right,#02735E,#038C3E,#0CF25D) ;
+}
+main{
+   background-color: rgba(250, 236, 209, 0.826);
+   border-radius: 20px;
+   margin: auto;
+   border-radius: 25px;
+   text-align: center;
+   max-width: 800px;
+   min-height: 320px;  
+
+   
+}
+main.p{
+   text-align:justify;
+   size: 3em;
+}
+h1{
+  font-family: var(--fonte-titulo);
+  text-align: center;
+  font-size: 3.5em;
+  
+   
+}
+div.video > iframe{
+   height: 50%;
+}
+p{
+   text-align:justify;
+   width: px;
+   padding: 10px;
+   font-family: var(--texto);
+   font-size: 1.4em;
+   
+}
