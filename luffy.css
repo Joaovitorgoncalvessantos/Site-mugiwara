@@ -7,7 +7,7 @@
       
       --cor0:#BF213E;
       --cor1:#52D5F2;
-      --cor2:#22A2F2;
+      --cor2:#;
       --cor3:#FFD60A;
       
 
@@ -17,7 +17,8 @@
 }
 
   body{
-  background-image: linear-gradient(to left,)
+   background-image:linear-gradient(to right,#ffde3be7,#ff2c53);
+  
 }
 main{
    background: rgba(250, 236, 209, 0.826);;
@@ -32,25 +33,15 @@ main{
 }
 main > p{
    text-align:justify;
-  font-size: 1.5m;
-   text-indent: 18px;
+  font-size: 1.2em;
+   text-indent: 20px;
    font-family: var(--fonte-titulo);
 }
 h1{
-  font-family: var(--fonte-titulo);
-  text-align: center;
-  font-size: 3.5em;
-  
-   
-}
-div.video > iframe{
-   height: 50%;
-}
-p{
-   text-align:justify;
-   width: px;
-   padding: 10px;
+
+   color: #ff0101;
    font-family: var(--texto);
-   font-size: 1.4em;
-   
+  text-align: center;
+  font-size: 3.5em;  
 }
+

@@ -20,17 +20,19 @@ main{
    min-height: 320px;  
    
 }
+h2 {
+   text-align: center;
+}
+
 h1{
+   color: #00473a;
   font-family: var(--fonte-titulo);
   text-align: center;
   font-size: 3.5em;
-  
-   
 }
-div.video > iframe{
-   height: 50%;
-}
+
 p{
+   text-indent: 20px;
    text-align:justify;
    width: px;
    padding: 10px;

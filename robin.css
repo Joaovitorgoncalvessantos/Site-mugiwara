@@ -4,11 +4,17 @@
 
 
 :root{
+
+
+  --cor0:#A776AE;
+  --cor1:#A11692;
+  --cor2:#34113F;
+
   --fonte-titulo:'Pirata One', cursiva;
   --texto: 'Phudu', cursiva;}
 
   body{
-   background-image:linear-gradient(to right,#02735E,#038C3E,#0CF25D) ;
+   background-image:linear-gradient(to right,#eabbf0,#d62ec5c1,#5e0779) ;
 }
 main{
    background-color: rgba(250, 236, 209, 0.826);
@@ -25,7 +31,8 @@ main.p{
    text-align:justify;
    size: 3em;
 }
-h1{
+h1{ 
+   color: #34113F;
   font-family: var(--fonte-titulo);
   text-align: center;
   font-size: 3.5em;
@@ -36,6 +43,7 @@ div.video > iframe{
    height: 50%;
 }
 p{
+   text-indent: 20px;
    text-align:justify;
    width: px;
    padding: 10px;

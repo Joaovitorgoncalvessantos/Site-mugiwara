@@ -10,15 +10,19 @@
     --fonte-destaque:'Bebas Neue';
 }
 body{
-    background-image: linear-gradient(to right,#17A0BF,#0FA6A6,#BF6E50);
+    background-image: linear-gradient(to right,#d46a14ee,#f1dd6cd9);
 }
 main{
+    max-width: 800px;
+    min-height: 320px;  
+    margin: auto;
     background-color: rgba(250, 236, 209, 0.826);
     border-radius: 22px;  
         
 }
  main > h1,h2{
     text-align: center;
+    
     
  }
  main > p {
@@ -30,7 +34,7 @@ main{
         text-decoration:none ;
     transition-duration: .5s;
     margin-bottom: 5px;
-    columns: 2;
+    columns:3;
 
  }
   
