@@ -23,7 +23,8 @@ main{
  }
  main > p {
    
-   font-family: 'Bebas Neue'
+   font-family: 'Bebas Neue';
+   text-indent: 18px;
  }
  main > ul{
         text-decoration:none ;

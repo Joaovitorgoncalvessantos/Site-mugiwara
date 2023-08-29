@@ -4,14 +4,23 @@
 
 
 :root{
-  --fonte-titulo:'Pirata One', cursiva;
-  --texto: 'Phudu', cursiva;}
+      
+      --cor0:#BF213E;
+      --cor1:#52D5F2;
+      --cor2:#22A2F2;
+      --cor3:#FFD60A;
+      
+
+
+      --fonte-titulo:'Pirata One', cursiva;
+      --texto: 'Phudu', cursiva;
+}
 
   body{
-   background-image:linear-gradient(to right,#02735E,#038C3E,#0CF25D) ;
+  background-image: linear-gradient(to left,)
 }
 main{
-   background-color: rgba(250, 236, 209, 0.826);
+   background: rgba(250, 236, 209, 0.826);;
    border-radius: 20px;
    margin: auto;
    border-radius: 25px;
@@ -21,9 +30,11 @@ main{
 
    
 }
-main.p{
+main > p{
    text-align:justify;
-   size: 3em;
+  font-size: 1.5m;
+   text-indent: 18px;
+   font-family: var(--fonte-titulo);
 }
 h1{
   font-family: var(--fonte-titulo);
