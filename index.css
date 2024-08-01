@@ -14,10 +14,11 @@ body{
 }
 main{
     max-width: 800px;
-    min-height: 320px;  
+    min-height:auto;  
     margin: auto;
     background-color: rgba(250, 236, 209, 0.826);
     border-radius: 22px;  
+    padding-bottom: 10px;
         
 }
  main > h1,h2{
@@ -29,6 +30,7 @@ main{
    
    font-family: 'Bebas Neue';
    text-indent: 18px;
+   padding: 10px;
  }
  main > ul{
         text-decoration:none ;
@@ -38,7 +40,9 @@ main{
 
  }
  a {
-    text-decoration: none;
-   
+    text-decoration: none; 
+ }
+ a:hover{
+    text-decoration:underline;
  }
   
